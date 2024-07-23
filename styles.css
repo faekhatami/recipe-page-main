@@ -18,7 +18,8 @@ body {
 
 .recipe-container {
     max-width: 525px;
-    margin: 0 auto;
+    height: auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
