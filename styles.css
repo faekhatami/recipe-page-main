@@ -164,3 +164,17 @@ hr {
     font-weight: 700;
     color: hsl(14, 45%, 36%);
 }
+
+@media (max-width: 375px) {
+    .recipe-container {
+        max-width: 375px;
+        border-radius: 0;
+    }
+
+    .recipe-image {
+        margin: -20px;
+        width: calc(100% + 40px);
+        border-radius: 0;
+        padding-bottom: 20px;
+    }
+}
